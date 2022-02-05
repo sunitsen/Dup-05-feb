@@ -80,13 +80,16 @@ header{
 
 .my-list .list-group-item{
   padding:0px 0px 0px 0px;
+  background: none;
+  border:none;
 }
 .my-list .list-group-item a{
   background: none;
   padding:5px 10px 1.5px 10px;
   border:none;
   border-radius: 0px !important;
-  background: #3ab58d;
+  color: #003366;
+  font-weight: 600;
 }
 
 
@@ -158,7 +161,17 @@ padding: 6px 0px 5px 0px;
  
 }
 /*-----------------newsbangla24------------*/
-
+.button-box .button-img{
+  width: 30%;
+}
+.button-box img{
+width: 100%;
+margin-top: 6px;
+}
+.button-content{
+  width: 70%;
+  
+}
 .scroll-two{
   height: 518px;
   overflow-y: scroll;
@@ -953,7 +966,7 @@ padding:0;
   overflow: hidden;
   padding: 0px 5px 0px 5px;
   line-height: 1.3rem;
-  color:#000000 ;
+  color:#003366;
 }
 
 

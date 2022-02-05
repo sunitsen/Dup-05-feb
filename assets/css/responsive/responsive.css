@@ -108,6 +108,14 @@
 
 
 
+  @media only screen and (max-width: 991px){
+    .button-box .button-img{
+    width: 100%;
+  }
+  .button-box img{
+    margin-top: 0;
+  }
+  } 
 
 
 
@@ -141,4 +149,20 @@
   .social-icon .list-group{
     margin: 0 !important;
   }
+}
+
+@media only screen and (max-width: 991px){
+  .responsive-content-none p{
+    display: none;
+  }
+  .responsive-content-none .time{
+    display: none;
+  }
+  .scroll-two button{
+    padding: 0 !important;
+  }
+  .scroll-two{
+    height: 392px;
+  }
+  
 }
