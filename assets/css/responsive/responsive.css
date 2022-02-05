@@ -1,0 +1,144 @@
+
+@media only screen and (max-width: 1199px){
+.main-nav .nav-item .nav-link{
+  padding: 5px 8px 1px 8px !important;
+}
+}
+
+@media only screen and (max-width: 767px) {
+  .header-top .left-box{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  .header-top .right-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+  @media only screen and (max-width: 569px) {
+    .single-news-box-child{
+      display: block !important;
+    }
+    
+  }
+
+  .ml-sz{
+    margin-left: 5px;
+  }
+  @media only screen and (max-width: 569px){
+   .ml-sz{
+    margin-left: 0px;
+  }
+  }
+  @media only screen and (max-width: 550px){
+    .d-none-sm{
+   display: none;
+   }
+   }
+
+
+   @media only screen and (max-width: 390px){
+    .social-btn-small-screen{
+      display: block !important;
+      justify-content: center;
+      align-items: center;
+    }
+    .social-btn-small-screen .my-list{
+   display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-block: .5rem;
+    }
+  }
+
+  @media only screen and (max-width: 1100px) {
+    .box-tag:nth-child(2)::before{
+      display: none;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 569px){
+    .single-news-box-child .single-news-box{
+    width: 100% !important;
+  }
+  }
+
+  
+
+@media only screen and (max-width: 767px){
+  #the-latest ul{
+    padding-left: 40px;
+  }
+  
+  .resposnive-margin{
+    margin-top: 50px !important;
+  }
+  .resposnive-margin-box-two{
+    margin-top: 10px !important;
+  }
+  }
+
+
+
+
+
+
+  @media only screen and (max-width: 513px){
+    .news-share a{
+      margin-top:5px;
+    }
+  
+  }
+
+
+
+
+
+  @media only screen and (max-width: 480px){
+    .news-tag-items a{
+      margin-top: 5px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 992px){
+    .tab-three .nav .nav-link{
+      margin-left: 10px;
+    }
+ 
+  }
+  @media only screen and (max-width: 767px){
+    .tab-three .nav{
+      padding:0;
+      margin: 0;
+    }
+    .tab-three .nav .nav-link{
+    margin-top: .5rem;
+    }
+  
+  }
+
+
+
+
+  
+@media only screen and (max-width: 390px){
+  .social-icon{
+    margin-right:25px !important;
+  }
+  .social-icon .list-group{
+    margin: 0 !important;
+  }
+}

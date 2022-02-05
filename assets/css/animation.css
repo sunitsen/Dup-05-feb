@@ -1,0 +1,222 @@
+
+#the-latest {
+    background: #002b3b;
+    height: 30px;
+    overflow: hidden;
+    padding: 3px;
+    position: relative;
+    -webkit-box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.5)
+}
+
+
+
+
+.the-latest-span{
+    float: left;
+    color: rgba(0, 0, 0, .8);
+    color: #fff;
+    background: green !important;
+    width: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding:1rem 0rem;
+    margin-top: -3px;
+    margin-left: -10px;
+    font-size: 16px;
+    -webkit-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.5);
+    background: rgb(0, 75, 103);
+    background: -moz-linear-gradient(top, rgba(0, 75, 103, 1) 0%, rgba(0, 53, 72, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 75, 103, 1) 0%, rgba(0, 53, 72, 1) 100%);
+    background: -o-linear-gradient(top, rgba(0, 75, 103, 1) 0%, rgba(0, 53, 72, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(0, 75, 103, 1) 0%, rgba(0, 53, 72, 1) 100%);
+    background: linear-gradient(top, rgba(0, 75, 103, 1) 0%, rgba(0, 53, 72, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#004b67', endColorstr='#003548', GradientType=0)
+}
+
+#the-latest ul {
+    float: left;
+    padding-left: 20px;
+    -webkit-animation: ticker 10s cubic-bezier(1, 0, .5, 0) infinite;
+    -moz-animation: ticker 10s cubic-bezier(1, 0, .5, 0) infinite;
+    -ms-animation: ticker 10s cubic-bezier(1, 0, .5, 0) infinite;
+    animation: ticker 10s cubic-bezier(1, 0, .5, 0) infinite
+}
+
+#the-latest ul:hover {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -ms-animation-play-state: paused;
+    animation-play-state: paused
+}
+
+#the-latest ul li {
+    line-height: 26px
+
+}
+
+#the-latest a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px
+}
+
+@-webkit-keyframes ticker {
+    0% {
+        margin-top: 0
+    }
+
+    25% {
+        margin-top: -26px
+    }
+
+    50% {
+        margin-top: -52px
+    }
+
+    75% {
+        margin-top: -78px
+    }
+
+    100% {
+        margin-top: 0
+    }
+}
+
+@-moz-keyframes ticker {
+    0% {
+        margin-top: 0
+    }
+
+    25% {
+        margin-top: -26px
+    }
+
+    50% {
+        margin-top: -52px
+    }
+
+    75% {
+        margin-top: -78px
+    }
+
+    100% {
+        margin-top: 0
+    }
+}
+
+@-ms-keyframes ticker {
+    0% {
+        margin-top: 0
+    }
+
+    25% {
+        margin-top: -26px
+    }
+
+    50% {
+        margin-top: -52px
+    }
+
+    75% {
+        margin-top: -78px
+    }
+
+    100% {
+        margin-top: 0
+    }
+}
+
+@keyframes ticker {
+    0% {
+        margin-top: 0
+    }
+
+    25% {
+        margin-top: -26px
+    }
+
+    50% {
+        margin-top: -52px
+    }
+
+    75% {
+        margin-top: -78px
+    }
+
+    100% {
+        margin-top: 0
+    }
+}
+
+/*-----------------responsive sliding text----------------------*/
+
+
+.news {
+    width: 160px
+}
+
+.news-scroll a {
+    text-decoration: none
+}
+
+.dot-text {
+    height: 6px;
+    width: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 2px !important;
+    background-color: rgb(207, 23, 23);
+    border-radius: 50%;
+    display: inline-block
+}
+.news-scroll a{
+    color: black;
+  }
+
+
+
+
+  .blink_me {
+    animation: blinker 2s linear infinite;
+  }
+  
+  @keyframes blinker {  
+    50% { opacity: 0; }
+  }
+  .blink_me{
+    position: absolute;
+    left: 17px !important;
+    top: 8px;
+    font-size: 14px;
+  }
+  .blink_me svg{
+      color: rgb(255, 0, 0)
+  }
+
+  .navbar .megamenu{ padding: 1rem; }
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+  .navbar .has-megamenu{position:static!important;}
+  .navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+
+}	
+/* ============ desktop view .end// ============ */
+
+/* ============ mobile view ============ */
+@media(max-width: 991px){
+  .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+    overflow-y: auto;
+      max-height: 90vh;
+      margin-top:10px;
+  }
+}
+/* ============ mobile view .end// ============ */
