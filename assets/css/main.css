@@ -1579,5 +1579,46 @@ margin-top: 2px;
 
 
 
-
-
+.footer-list a{
+  position: relative;
+}
+.footer-list a{
+/*   background: green; */
+  width: fit-content;
+  padding: 5px 10px 2px 10px;
+  margin-top: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: black;
+  transition: .5s ease;
+}
+.footer-list a:nth-child(1){
+  margin-top: 0;
+}
+.footer-list a:before{
+  content: '';
+  display: block;
+  width: 3px;
+  height: 20px;;
+  background: #0f0fff;
+  position: absolute;
+  left: 0;
+  top:5px;
+}
+.footer-list a:after{
+  content: '';
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50px;
+  background: black;
+  position: absolute;
+  left: -1px;
+  top:-2px;
+}
+.footer-list a:hover{
+  color: #f94c4c;
+}
+footer{
+  background: #eeeeee;
+}
