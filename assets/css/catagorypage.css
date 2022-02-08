@@ -40,3 +40,29 @@
    padding: 2px 5px 0px 5px;
     margin-block: 0;
   }
+
+
+  .load-more-btn a{
+    background: green;
+    width: fit-content;
+    padding: .2rem .5rem .0rem .5rem;
+    font-size: 1.3rem;
+    font-size: 600;
+    color: white;
+     transition: .5s ease;
+    border-radius: 2px;
+    margin-block: 1rem;
+  }
+  .load-more-btn a:hover{
+    color: red;
+  
+  }
+
+
+  .load-more-btn svg{
+    color: red;
+    transition: .5s ease;
+  }
+  .load-more-btn a:hover svg{
+    color: white;
+  }
