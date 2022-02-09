@@ -166,3 +166,10 @@
   }
   
 }
+
+
+@media only screen and (max-width: 505px){
+  .news-box-one .overlay-content p{
+    line-height: 1.3;
+  }
+}
